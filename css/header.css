@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+
+.header {
+    background-color: #081130;   
+}
+
+.header-nav {
+    padding-top: 37px;
+}
+
+.header-nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+.header-nav__text {
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 143%;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    color: white;
+}
+
+.header-nav__tel-adr {
+    display: flex;
+    gap: 69px; 
+}
+
+.header-nav__adr {
+    display: flex;
+    justify-content: space-between;
+    width: 126px;
+}
+
+.header-nav__adr--height {
+    padding-top: 9px;
+}
+
+.header-nav__adr--width {
+  width: 177px;  
+}
+
+.header-nav__tel-img {
+    padding-top: 8.3px;
+}
+
+.header-nav__adr-img {
+    padding-top: 3px;
+}
+
+.header-nav__addrees {
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+    letter-spacing: 0%;
+    color: white;
+}
+
+.header-nav__telephone {
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 152%;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    color: white;    
+}
