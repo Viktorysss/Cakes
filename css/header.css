@@ -5,7 +5,7 @@
     }
 
 .header {
-    background-color: #081130;   
+    background-color: #35170C;   
 }
 
 .header-nav {
@@ -72,3 +72,113 @@
     vertical-align: middle;
     color: white;    
 }
+
+
+.main-text-header {
+    padding-top: 188px;
+    padding-left: 350px;
+    display: flex;
+}
+
+.main-text-header__yum {
+    width: 118px;
+    height: 37px;
+    opacity: 1;
+    gap: 10px;
+    border-radius: 5px;
+    padding-top: 10px;
+    padding-right: 18px;
+    padding-bottom: 10px;
+    padding-left: 18px;  
+    background-color: #F2F6FA;
+}
+
+.main-text-header__yum-text {
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 150%;
+    letter-spacing: 10%;
+    vertical-align: middle;
+    text-transform: uppercase;
+    color: #2E363E;
+}
+
+.main-text-header__title {
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 60px;
+    letter-spacing: -1px;
+    color: white;
+    padding-top: 24px;
+}
+
+.main-text-header__text {
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 143%;
+    letter-spacing: 0%;
+    color: white;
+    padding-top: 24px;
+}
+
+.main-text-header__button-text {
+    display: flex;
+    padding-top: 40px;
+}
+
+.main-text-header__button {
+    width: 250px;
+    height: 88px;
+    opacity: 1;
+    gap: 10px;
+    border-radius: 8px;
+    padding-top: 30px;
+    padding-right: 50px;
+    padding-bottom: 30px;
+    padding-left: 50px;
+    background-color: #FED84C;
+    border: none;
+}
+
+.main-text-header__catalog {
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 152%;
+    letter-spacing: 0%;
+    text-align: center;
+    vertical-align: middle;
+    color: #2E363E;
+}
+
+
+.main-text-header__text-view {
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 160%;
+    letter-spacing: 0%;
+    color: white;
+    padding: 20px 20px;
+}
+
+.main-text-header__img {
+    padding-left: 60px;
+}
+
+
+.header-text {
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 60px;
+    letter-spacing: -1px;
+    text-align: center;
+    vertical-align: bottom;
+    background-color: white;
+    color: #2E363E;
+}
+
