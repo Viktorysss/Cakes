@@ -1,0 +1,347 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Montserrat;
+    }
+
+.assortment {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.assortment-post {
+    display: flex;
+    width: 1300px;
+    flex-wrap: wrap;
+    padding-top: 80px;
+    justify-content: center;
+
+}
+
+.assortment-post-card {
+    width: 382px;
+    height: 582px;
+    border: 0.3px solid #e7e7e7;
+    border-radius: 2%;
+    margin: 20px 20px;
+}
+
+.assortment-post-card:hover {
+    -webkit-box-shadow: 10px 10px 8px 0px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 10px 10px 8px 0px rgba(34, 60, 80, 0.2);
+    box-shadow: 10px 10px 8px 0px rgba(34, 60, 80, 0.2);
+}
+
+.assortment-post-card__text {
+    height: 337px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 24px;
+    padding-left: 44px;
+
+}
+
+.assortment-post-card__name {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 143%;
+    letter-spacing: 0%;
+    color: #2E363E;
+}
+
+.assortment-post-card__description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0%;
+    color: #2E363E;
+    padding-top: 12px;
+}
+
+.assortment-post-card__price {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 150%;
+    letter-spacing: 0%;
+    color: #434B53;
+}
+
+.assortment-post-card__button {
+    width: 163px;
+    height: 68px;
+    opacity: 1;
+    gap: 10px;
+    padding-top: 20px;
+    padding-right: 40px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+    border-radius: 8px;
+    background-color: #FED84C;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 152%;
+    letter-spacing: 0%;
+    text-align: center;
+    vertical-align: middle;
+    color: #2E363E;
+    border: none;
+    cursor: pointer;
+}
+
+.assortment-post-card__button-top {
+    padding-top: 14px;
+}
+
+
+.any-older {
+    background-color: #35170C;
+}
+
+.main-text-header--any-older {
+    padding: 0;
+}
+
+.any-older__text {
+    padding-left: 84px;
+    padding-top: 109px;
+}
+
+.main-text-header__yum--any-older{
+    width: 187px;
+}
+
+.main-text-header__button--any-older {
+    width: 300px;
+    padding-bottom: 28px;
+}
+
+.pastry-chef {
+    display: flex;
+}
+
+.main-text-header__yum--pastry-chef {
+    width: 159px;
+}
+
+.main-text-header__title--pastry-chef {
+    color: #2E363E
+}
+
+.main-text-header__text--pastry-chef {
+    color: #2E363E;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    letter-spacing: 0px;
+    padding-left: 18px;
+}
+
+.main-text-header__text-list-top {
+    padding-top: 30px;
+}
+
+.main-text-header__button--pastry-chef {
+    width: 300px;
+    padding-top: 30px;
+}
+
+.pastry-chef-img {
+    padding-left: 200px;
+    padding-top: 60px;
+    position: relative;
+}
+
+.pastry-chef__julia-name {
+    display: flex;
+    padding-left: 375px;
+}
+
+.pastry-chef__julia-name__name {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: -0.3px;
+    text-align: center;
+    vertical-align: middle;
+    background-color: #2E363E;
+    color: white;
+    height: 60px;
+    padding: 15px 0;
+}
+
+.pastry-chef__julia-profession {
+    display: flex;
+    padding-left: 393px;
+}
+
+.pastry-chef__julia-profession__profession {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 1px;
+    text-align: center;
+    vertical-align: middle;
+    text-transform: uppercase;
+    background-color: #F2F6FA;
+    color: #2E363E;
+    padding: 15px 0;
+}
+
+
+.reviews {
+    background-color: #35170C;
+    height: 1500px
+}
+
+.header-text-reviews {
+    color: white;
+    background-color: #35170C;
+}
+
+.reviews-swiper {
+display: flex;
+justify-content: center;
+flex-direction: column;
+align-items: center;
+padding-top: 80px;
+gap: 100px;
+}
+
+.reviews-swiper__slide{
+    background-color: white;
+    width: 1180px;
+    height: 570px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.reviews-swiper__slide__text {
+    padding-top: 24px;
+}
+
+.reviews-swiper__slide_text-title {
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 143%;
+    letter-spacing: 0%;
+    color: #2E363E; 
+    padding-top: 124px;
+}
+
+.reviews-swiper__slide-icon {
+    display: block;
+}
+
+.reviews-swiper__slide-img {
+   padding-top: 70px; 
+}
+
+.reviews-swiper__slide__name {
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+}
+
+.reviews-swiper__slide-name {
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 143%;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #2E363E;
+}
+
+.reviews-swiper__slide-city {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 170%;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #A6AEB6;
+}
+
+.reviews-button {
+    width: 155px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.reviews-button__button {
+    width: 66px;
+    height: 66px;
+    border-radius: 50%;
+    background-color: #FED84C;
+    border: none;
+    padding: 20px;
+    cursor: pointer;
+}
+
+
+/* footer */
+
+.footer {
+    display: flex;
+    justify-content: center;
+    margin: 200px;
+}
+
+.footer-order {
+    width: 1180px;
+    height: 400px;
+    background-color: #35170C;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.footer-order__title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 133%;
+    letter-spacing: 0%;
+    text-align: center;
+    color: white; 
+    padding-top: 70px;
+}
+
+.footer-order__text {
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 143%;
+    letter-spacing: -0.2px;
+    text-align: center;
+    color: white;
+    padding-left: 88px;
+}
+
+.footer-order__buttons {
+    padding-top: 90px;
+    display: flex;
+    gap: 20px;
+}
+
+.footer-order__buttons-number {
+    width: 380px;
+    height: 85px;
+    opacity: 1;
+    border-radius: 8px;
+    background-color: #F2F6FA;
+    padding: 30px 0 30px 26px
+}
+
+.footer-order__buttons-number-text {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 160%;
+    letter-spacing: 0%;
+    color: #7E868E;
+}
+
+.main-text-header__button--footer {
+    width: 380px;
+    height: 85px;
+}
