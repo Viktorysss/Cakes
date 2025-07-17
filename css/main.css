@@ -104,6 +104,10 @@
     padding: 0;
 }
 
+.any-older__phone {
+    transform: translateY(-10px);
+}
+
 .any-older__text {
     padding-left: 84px;
     padding-top: 109px;
