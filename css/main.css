@@ -101,16 +101,16 @@
 }
 
 .main-text-header--any-older {
-    padding: 0;
+    display: flex;
+    gap: 300px;
 }
 
 .any-older__phone {
-    transform: translateY(-10px);
+
 }
 
 .any-older__text {
-    padding-left: 84px;
-    padding-top: 109px;
+    padding-top: 200px;
 }
 
 .main-text-header__yum--any-older{
